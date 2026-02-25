@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --background: 248 100% 99%;
-  --foreground: 250 22% 16%;
-  --card: 0 0% 100%;
-  --card-foreground: 250 22% 16%;
-  --primary: 281 92% 55%;
+  --background: 222 47% 6%;
+  --foreground: 0 0% 98%;
+  --card: 222 35% 10%;
+  --card-foreground: 0 0% 98%;
+  --primary: 0 93% 58%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 198 95% 50%;
-  --secondary-foreground: 0 0% 100%;
-  --muted: 252 38% 95%;
-  --muted-foreground: 250 12% 40%;
-  --accent: 36 100% 58%;
-  --accent-foreground: 251 100% 9%;
-  --border: 252 38% 90%;
-  --input: 252 38% 92%;
-  --ring: 281 92% 55%;
-  --radius: 1rem;
+  --secondary: 48 100% 52%;
+  --secondary-foreground: 225 30% 10%;
+  --muted: 222 20% 16%;
+  --muted-foreground: 220 8% 72%;
+  --accent: 174 95% 42%;
+  --accent-foreground: 0 0% 100%;
+  --border: 223 18% 24%;
+  --input: 223 18% 16%;
+  --ring: 0 93% 58%;
+  --radius: 0.75rem;
 }
 
 * {
@@ -31,14 +31,23 @@ body {
 }
 
 body {
-  background-image: radial-gradient(circle at 10% 10%, #eef1ff 0%, #f8f9ff 40%, #ffffff 100%);
+  background-image: radial-gradient(circle at 20% 0%, #1b2235 0%, #0b0f18 45%, #070a11 100%);
 }
 
 .gradient-banner {
-  background: linear-gradient(120deg, #6b21ff, #1e90ff, #ff2fa5, #ff8f1f);
-  background-size: 200% 200%;
+  background: linear-gradient(115deg, #0f1422 0%, #2b0f16 38%, #7a131f 64%, #e31c2c 100%);
+}
+
+.fastfit-panel {
+  background: linear-gradient(145deg, rgba(227, 28, 44, 0.18), rgba(10, 12, 20, 0.95));
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .section-padding {
   @apply py-16 md:py-24;
+}
+
+.promo-stripe {
+  background: linear-gradient(90deg, #ffcf00, #ff8a00);
+  color: #111827;
 }

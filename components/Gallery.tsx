@@ -19,13 +19,13 @@ export default function Gallery() {
   return (
     <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
       {images.map((src, index) => (
-        <motion.div key={src} whileHover={{ scale: 1.04 }} className="group relative overflow-hidden rounded-2xl">
+        <motion.div key={src} whileHover={{ scale: 1.04 }} className="group relative overflow-hidden rounded-xl border border-white/10">
           <Image
             src={`${src}?auto=format&fit=crop&w=800&q=80`}
             alt={`Gym gallery ${index + 1}`}
             width={400}
             height={300}
-            className="h-44 w-full object-cover transition duration-300 group-hover:brightness-75"
+            className="h-44 w-full object-cover transition duration-300 group-hover:scale-105 group-hover:brightness-75"
           />
         </motion.div>
       ))}

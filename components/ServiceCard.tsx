@@ -9,15 +9,15 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ title, text, icon: Icon }: ServiceCardProps) {
   return (
-    <Card className="h-full border-white/60 bg-white/80 backdrop-blur-sm transition hover:-translate-y-1 hover:shadow-xl">
+    <Card className="h-full border-white/10 bg-[#0f1422] transition hover:-translate-y-1 hover:border-primary hover:shadow-[0_16px_40px_rgba(227,28,44,0.25)]">
       <CardHeader>
-        <div className="mb-4 inline-flex rounded-2xl bg-primary/10 p-3 text-primary">
+        <div className="mb-4 inline-flex rounded-md bg-primary/20 p-3 text-primary">
           <Icon className="h-6 w-6" />
         </div>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle className="uppercase text-white">{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <p className="text-sm text-muted-foreground">{text}</p>
+        <p className="text-sm text-slate-300">{text}</p>
       </CardContent>
     </Card>
   );
