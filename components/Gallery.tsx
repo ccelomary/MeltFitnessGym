@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const images = [
   "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
-  "https://images.unsplash.com/photo-1571019613914-85f342c55f19",
+  "https://images.unsplash.com/photo-1649789261044-0c6a9fb528ff",
   "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
   "https://images.unsplash.com/photo-1549476464-37392f717541",
   "https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a",
